@@ -1,0 +1,25 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python"
+  ],
+  //js,ts config
+  "typescript.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  //prettier config
+  "prettier.printWidth": 100,
+  //explorer config
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  }
+}
