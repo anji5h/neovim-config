@@ -6,10 +6,6 @@ call plug#begin('~/.config/nvim/plugins')
 Plug 'sheerun/vim-polyglot'
 " code formatter
 Plug 'prettier/vim-prettier'
-" file explorer
-Plug 'scrooloose/nerdtree'
-" eslint
-Plug 'w0rp/ale'
 " intellisense
 Plug 'neoclide/coc.nvim',{ 'branch':'release'}
 " git integration
