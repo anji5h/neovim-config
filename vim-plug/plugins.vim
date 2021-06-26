@@ -4,8 +4,6 @@ call plug#begin('~/.config/nvim/plugins')
 
 " Better syntax support
 Plug 'sheerun/vim-polyglot'
-" code formatter
-Plug 'prettier/vim-prettier'
 " intellisense
 Plug 'neoclide/coc.nvim',{ 'branch':'release'}
 " git integration
@@ -19,4 +17,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 "auto-pairs
 Plug 'chun-yang/auto-pairs'
+" ranger
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 call plug#end()
