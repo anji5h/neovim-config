@@ -19,4 +19,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'chun-yang/auto-pairs'
 " ranger
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+" startify
+Plug 'mhinz/vim-startify'
 call plug#end()
