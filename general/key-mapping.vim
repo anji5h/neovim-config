@@ -24,8 +24,7 @@ nnoremap <C-left> :bprevious<CR>
 nnoremap <C-w> :wq<CR>
 " Alternate way to save
 nnoremap <C-s> :w<CR>
-inoremap <C-s> :w<CR>
-" Alternate way to quit
+" Alternate way to hard quit
 nnoremap <C-Q> :q!<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
@@ -43,7 +42,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 " prettier
 nnoremap <C-S-i> :CocCommand prettier.formatFile<CR>
-inoremap <C-M-f> :CocCommand prettier.formatFile<CR>
+vnoremap <C-M-f> :CocCommand prettier.formatFile<CR>
 " move line up and down insert mode
 nnoremap <M-up> :m .-2<CR>==
 nnoremap <M-down> :m .+1<CR>==

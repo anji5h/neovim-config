@@ -3,17 +3,23 @@
     "css",
     "markdown",
     "javascript",
+    "typescript",
     "graphql",
     "html",
     "yaml",
     "json",
-    "python"
+    "python",
+    "javascriptreact",
+    "typescriptreact",
+    "scss",
+    "sql"
   ],
   //js,ts config
   "typescript.autoClosingTags": true,
   "javascript.autoClosingTags": true,
   //prettier config
   "prettier.printWidth": 120,
+  "prettier.trailingComma": "none",
   //explorer config
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
