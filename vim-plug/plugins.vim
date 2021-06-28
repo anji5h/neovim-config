@@ -18,7 +18,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 "auto pairs brackets and tags
 Plug 'tpope/vim-surround'
-Plugin 'jiangmiao/auto-pairs'
+Plug 'jiangmiao/auto-pairs'
 " ranger
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 " startify
