@@ -4,7 +4,9 @@ call plug#begin('~/.config/nvim/plugins')
 
 " Better syntax support
 Plug 'sheerun/vim-polyglot'
-" intellisense
+" snippets
+Plug 'honza/vim-snippets'
+"intellisense
 Plug 'neoclide/coc.nvim',{ 'branch':'release'}
 " git integration
 Plug 'tpope/vim-fugitive'
@@ -19,9 +21,7 @@ Plug 'ryanoasis/vim-devicons'
 "auto pairs brackets and tags
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
-" ranger
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-" startify
+"startify
 Plug 'mhinz/vim-startify'
 " commenter
 Plug 'scrooloose/nerdcommenter'
