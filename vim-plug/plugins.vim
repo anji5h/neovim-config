@@ -1,7 +1,6 @@
 
 call plug#begin('~/.config/nvim/plugins')
 
-
 " Better syntax support
 Plug 'sheerun/vim-polyglot'
 " snippets
@@ -18,13 +17,13 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "file-icons
 Plug 'ryanoasis/vim-devicons'
-"auto pairs brackets and tags
+"vim surround
 Plug 'tpope/vim-surround'
-Plug 'jiangmiao/auto-pairs'
 "startify
 Plug 'mhinz/vim-startify'
 " commenter
 Plug 'scrooloose/nerdcommenter'
 "fuzzy finder
 Plug 'junegunn/fzf'
+
 call plug#end()
