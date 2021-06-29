@@ -6,12 +6,9 @@ let g:startify_lists = [
           \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
           \ ]
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config/i3/config' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'z': '~/.zshrc' },
-            \ '~/Blog',
-            \ '~/Code',
-            \ '~/Pics',
+            \ '~/projects',
             \ ]
 let g:startify_custom_header = [
       \ '                                    ', 
