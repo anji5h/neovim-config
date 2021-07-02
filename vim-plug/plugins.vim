@@ -25,5 +25,7 @@ Plug 'mhinz/vim-startify'
 Plug 'scrooloose/nerdcommenter'
 "fuzzy finder
 Plug 'junegunn/fzf'
+"ranger
+Plug 'kevinhwang91/rnvimr'
 
 call plug#end()
