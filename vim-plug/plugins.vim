@@ -27,5 +27,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'junegunn/fzf'
 "ranger
 Plug 'kevinhwang91/rnvimr'
-
+"prettier
+Plug 'prettier/vim-prettier'
 call plug#end()

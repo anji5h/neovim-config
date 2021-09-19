@@ -11,3 +11,4 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/commenter.vim
 source $HOME/.config/nvim/plug-config/ranger.vim
+source $HOME/.config/nvim/plug-config/prettier.vim

@@ -41,11 +41,13 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 " prettier
-nnoremap <C-S-i> :CocCommand prettier.formatFile<CR>
-vnoremap <C-M-f> :CocCommand prettier.formatFile<CR>
+nnoremap <C-S-i> :PrettierAsync<CR>
+vnoremap <C-M-f> :PrettierAsync<CR>
 " move line up and down insert mode
 nnoremap <M-up> :m .-2<CR>==
 nnoremap <M-down> :m .+1<CR>==
-
+" commenter
+nnoremap <C-/> :call NERDComment(0,"toggle")<CR>
+vnoremap <C-/> :call NERDComment(0,"toggle")<CR>
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
